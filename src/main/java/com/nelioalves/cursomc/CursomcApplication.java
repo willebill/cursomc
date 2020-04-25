@@ -36,7 +36,7 @@ public class CursomcApplication implements CommandLineRunner {
 		Produto p3 = new Produto (null, "Mouse", 80.00);
 		
 		cat1.getProdutos().addAll(Arrays.asList(p1, p2, p3)); // Associa os p1, p2 e p3 a cat1
-		cat2.getProdutos().addAll(Arrays.asList(p2)); // Associa o p2a cat2
+		cat2.getProdutos().addAll(Arrays.asList(p2)); // Associa o p2 a cat2
 		
 		p1.getCategorias().addAll(Arrays.asList(cat1));
 		p2.getCategorias().addAll(Arrays.asList(cat1, cat2));
